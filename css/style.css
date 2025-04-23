@@ -1,0 +1,12 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #000; color: #fff; }
+header { text-align: center; background: linear-gradient(to right, #6a00ff, #ffd700); padding: 2em; color: #000; }
+section { padding: 2em; }
+#gallery-testimonials { display: flex; justify-content: space-between; }
+.gallery-scroll img { height: 200px; margin: 1em; animation: scrollUp 10s linear infinite; }
+.testimonials blockquote { animation: slideIn 15s linear infinite; margin-bottom: 1em; }
+.package { border: 1px solid gold; padding: 1em; margin: 1em 0; }
+form { display: flex; flex-direction: column; gap: 1em; }
+.social-icons a { margin: 0 1em; color: #ffd700; }
+@keyframes scrollUp { 0% { transform: translateY(100%); } 100% { transform: translateY(-100%); } }
+@keyframes slideIn { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
